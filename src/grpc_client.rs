@@ -1,4 +1,5 @@
-use services::{payment_service_client::PaymentServiceClient, PaymentRequest,};
+use services::{payment_service_client::PaymentServiceClient, PaymentRequest,
+    transaction_service_client::TransactionServiceClient, TransactionRequest};
 
 pub mod services {
     tonic::include_proto!("services");
